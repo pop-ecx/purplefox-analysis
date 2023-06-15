@@ -1,3 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Purplefox msi analysis"
+theme = "hyde"
+[params]
+
+description = "High level analysis of a purplefox rootkit msi"
