@@ -8,7 +8,7 @@ To delve deeper into the MSI file, I utilized a helpful utility called `msitools
 
 Using the `msiinfo` tool, I examined all tables and streams within the installer. Here is an image showing the results:
 
-![msiinfo results](https://github.com/pop-ecx/purplefox-analysis/blob/main/static/images/msiinfo.png)
+[msiinfo results](https://github.com/pop-ecx/purplefox-analysis/blob/main/static/images/msiinfo.png)
 Next, I proceeded to extract the files for further analysis. I utilized `msidump` with the `-s` and `-t` options to dump the streams and tables, respectively.
 
 With the files successfully dumped, I was able to inspect the `idt` files. It's worth noting that two folders are generated upon dumping the MSI file: "binary" and "streams." Among these folders, the `customAction.idt` file caught my attention as it contained some VBS code. 
