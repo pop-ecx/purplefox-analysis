@@ -2,6 +2,7 @@
 title: "purple fox msi analysis"
 date: 2023-06-15T20:03:52+03:00
 ---
+![Photo by Dana Critchlow on Unsplash](static/images/dana-critchlow-BO5BswJwguI-unsplash.resized.resized.jpg)
 A couple of months ago, I came across an intriguing `.tmp` file that was sent to me. The sender mentioned that their antivirus software had flagged and caught the file on their computer. Naturally, I decided to investigate further. Although the file was labeled as a `.tmp` file, running it through a file utility revealed that it was actually an MSI (Microsoft Software Installer) file.
 
 To delve deeper into the MSI file, I utilized a helpful utility called `msitools`. For more information on `msitools`, you can visit this [link](https://wiki.gnome.org/msitools). MSI files serve as installers for Windows programs, containing databases, actions, and sequences. Instead of providing an extensive explanation here, I recommend referring to this excellent resource to learn more about MSI files: [Threat Analysis: MSI-Masquerading as Software Installer](https://www.cybereason.com/blog/threat-analysis-msi-masquerading-as-software-installer).
